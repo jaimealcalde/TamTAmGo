@@ -14,7 +14,7 @@ import {
   getPlaylistByIdAndInfo,
   getFollowingPlaylistsByUser,
 } from "../controllers/playlistsController.js";
-import middleware from "../middlewares/index.js";
+//import middleware from "../middlewares/index.js";
 
 export const playlistsRoutes = Router();
 
