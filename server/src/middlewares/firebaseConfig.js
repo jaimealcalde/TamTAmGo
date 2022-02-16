@@ -12,4 +12,6 @@ admin.initializeApp({
   }),
 });
 
+console.log(process.env.FIREBASE_PROJECT_ID)
+
 export default admin;
