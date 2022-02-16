@@ -3,6 +3,7 @@ import admin from "firebase-admin";
 //import { createRequire } from "module";
 //const require = createRequire(import.meta.url);
 //const serviceAccount = require("./serviceAccount.json");
+console.log(process.env.FIREBASE_PROJECT_ID)
 
 admin.initializeApp({
   credential: admin.credential.cert({
@@ -12,6 +13,5 @@ admin.initializeApp({
   }),
 });
 
-console.log(process.env.FIREBASE_PROJECT_ID)
 
 export default admin;
