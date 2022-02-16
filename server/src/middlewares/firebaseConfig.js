@@ -1,4 +1,4 @@
-import admin from "firebase-admin";
+/*import admin from "firebase-admin";
 
 //import { createRequire } from "module";
 //const require = createRequire(import.meta.url);
@@ -23,3 +23,4 @@ admin.initializeApp({
 
 
 export default admin;
+*/

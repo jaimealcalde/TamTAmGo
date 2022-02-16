@@ -1,4 +1,4 @@
-import admin from "../middlewares/firebaseConfig.js";
+/*import admin from "../middlewares/firebaseConfig.js";
 
 class Auth {
     async decodeToken(req, res, next) {
@@ -25,3 +25,4 @@ class Auth {
 }
 
 export default new Auth();
+*/
