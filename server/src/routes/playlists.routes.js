@@ -1,6 +1,6 @@
 import { Router } from "express";
 import upload from "../utils/multer.js";
-import Auth from "../middlewares/index.js";
+//import Auth from "../middlewares/index.js";
 import {
   createPlaylist,
   deletePlaylistById,
